@@ -1,0 +1,27 @@
+label{
+    font-size: var(--font-small);
+    color: var(--color-gray-600);
+    font-weight: 700;
+}
+input{
+    margin: 0.25rem 0 1.25rem;
+    padding-top: 0.907rem;
+    padding-bottom: 0.907rem;
+    padding-left: 1.8755rem;
+    border: solid 1px var(--color-gray-200);
+    border-radius: 12px;
+    width: calc(100% - 31px);
+}
+input:focus{
+    border: solid 1px #3b83f6;
+    outline: solid 3px #3b83f69f;
+}
+.input-div{
+    position: relative;
+    width: 100%;
+}
+.input-div img{
+    position: absolute;
+    top: 16px;
+    left: 4px;
+}

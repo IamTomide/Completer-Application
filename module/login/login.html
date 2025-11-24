@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="./module/login/login.css">
+
+<section class="card-header" 
+data-login="/components/logo/logo.html"
+data-heading="Welcome Back!"
+data-subhead="Enter your details to access your account"
+>
+
+</section>
+
+<div class="buttons">
+    <button id="loginB" class="active">Login</button>
+    <button id="signinB">Sign Up</button>
+</div>
+
+<form action="" id="signupPage">
+    <div  
+    data-login="/components/input/input.html"
+    data-label="Email Address" 
+    data-type="email"
+    data-placeholder="hello@example.com"
+    data-icon="/components/images/email.svg" 
+    ></div>
+    <div
+    data-login="/components/input/input.html"
+    data-label="Password"
+    data-type="password"
+    data-placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+    data-icon="/components/images/email.svg"
+    ></div>
+
+    <div class="actn-buttons">
+        <div class="button-help" data-login="/components/button/button.html" data-btnaction="help" data-icon="/components/images/help.svg"></div>
+        <div class="button-help2" data-login="/components/button/button.html" data-btnaction="Next Step" ></div>
+    </div>
+</form>
+
+<p class="agree-stmt">By continuing, you agree to our <a href="">Terms of service</a> & <a href="">Privacy Policy</a></p>
+    
+
+
+
+
+<script src="/module/login/login.js"></script>

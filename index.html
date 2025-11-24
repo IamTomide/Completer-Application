@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+     <link rel="stylesheet" href="./assets/css/global.css">
     <title>Completer App Assignment</title>
 </head>
 <body>
     <div class="container">
-        <div class="backdrop">
-            <div class="auth-page">
-                <div class="card">
-                    <section class="card-header" data-import="./module/header/header.html">
-                    </section>
-                    <section class="card-detail" data-import="./module/detail/detail.html">
-                    </section>
-                </div>
-            <footer data-import="./module/footer/footer.html">    
-            </footer>   
+        <div class="auth-page">
+            <div class="backdrop">
+                <div class="shapes"></div>
             </div>
+            
+            <div class="blur"></div>
+            <div class="card">
+
+        
+                 <section class="card-detail" data-import="./module/login/login.html" id="loginPage"></section>
+                 <section class="card-detail hide" data-import="./module/signup/signup.html" id="signupPage">
+               
+            </div>
+        <footer data-import="./module/footer/footer.html"></footer>   
         </div>
+            
         
     </div>
 

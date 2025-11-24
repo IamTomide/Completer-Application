@@ -1,0 +1,21 @@
+.help-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB; 
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: solid 2px var(--color-gray-200);
+    border-radius: 12px;
+}
+.help-button p{
+    padding-bottom: 0.5rem;
+}
+.help-button{
+    box-shadow: 0 10px 15px -3px #0000001a;
+}
+
+.yellow-btn{
+    background-image: linear-gradient(#fdc700, #f0b100) ;
+    border: none;
+}
