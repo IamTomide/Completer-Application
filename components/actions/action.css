@@ -1,0 +1,41 @@
+
+h5{
+    font-size: var(--font-small);
+    color: var(--color-gray-600);
+    font-weight: bold;
+}
+.action-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-bottom: 0.75rem;
+}
+.action-title img{
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.blue{
+    background-color: #155dfc;
+}
+.cyan{
+    background-color: #0092b8;
+}
+.green{
+    background-color: #00a63e;
+}
+.indigo{
+    background-color: #4f39f6;
+}
+.num-div{
+    padding: 1.5rem;
+}
+.num-div p{
+    font-size: var(--font-xsmall);
+    color: var(--color-gray-600);
+    margin-top: 0.25rem;
+}
+.num{
+    font-size: var(--font-2xl);
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.quick-action-menu img{
+    background-color: green;
+}
+.action-desc{
+    margin-top: 0.5rem;
+}
+.action-desc p{
+    margin: 0.5rem 0;
+    color: var(--color-gray-500);
+    font-size: var(--font-xsmall);
+    font-weight: bold;
+}
+.action-desc h6{
+    font-size: var(--font-small);
+    font-weight: bold;
+    color: var(--font-gray);
+}

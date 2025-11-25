@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/dashboard.css">
+    <title>Completer App</title>
+</head>
+<body>
+    <section class="dashboard">
+        <div class="dashboard-head">
+            <h4>Good evening, Oluwatomide</h4>
+            <p>Here's what's happening with your productivity today</p>
+        </div>
+        
+
+        <div class="action-options">
+            <div class="action-div"
+            data-dashboard="/components/actions/action.html" data-icon="/components/images/checkbox.svg"
+            data-action="Active tasks"
+            data-color="blue"
+            data-currentvalue="0"
+            data-valuenote="0 completed"
+            ></div>
+            <div class="action-div" 
+            data-dashboard="/components/actions/action.html"
+            data-icon="/components/images/dollar.svg"
+            data-action="Total Expenses"
+            data-color="cyan"
+            data-currentvalue="$0.00"
+            data-valuenote="This period"
+            ></div>
+            <div class="action-div" 
+            data-dashboard="/components/actions/action.html"
+            data-icon="/components/images/note.svg"
+            data-action="Total Notes"
+            data-color="green"
+            data-currentvalue="0"
+            data-valuenote="Saved notes"
+            ></div>
+            <div class="action-div" 
+            data-dashboard="/components/actions/action.html"
+             data-icon="/components/images/trend.svg"
+            data-action="Total Expenses"
+            data-color="indigo"
+            data-currentvalue="0%"
+            data-valuenote="Task completion"
+            ></div>            
+        </div>
+
+        <section class="tasks-and-actions">
+            <div class="tasks">
+                <div class="title">
+                    <img src="/assets/images/clock.svg" alt="">
+                    <p>Recent Tasks</p>
+                </div>
+                <div class="recent-tasks">
+                    <img src="/assets/images/task.svg" alt="checkbox">
+                    <p>No tasks yet</p>
+                </div> 
+            </div>
+            <div class="quick-actions">
+                <div class="title">
+                    <img src="/assets/images/trendup.svg" alt="">
+                    <p>Quick Actions</p>
+                </div>
+                <div class="quick-menu-container">
+                    <div class="quick-action-menu" 
+                    data-dashboard="/components/quickActions/quick-action.html">   
+                    </div>
+                    
+                </div> 
+            </div>
+        </section>
+    </section>
+    
+
+</body>
+<script src="/assets/js/dashboard.js"></script>
+</html>
+

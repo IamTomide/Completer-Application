@@ -1,0 +1,88 @@
+.dashboard{
+    padding: 2rem;
+}
+.action-options{
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 1.875rem 0;
+}
+.action-div{
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: white;
+    border: solid 1px var(--border);
+    outline: var(--outline) 50% transparent;
+    border-radius: 4px;
+}
+.action-div:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.option{
+    width: 23%;
+    border: solid 2px red;
+}
+.dashboard-head p{
+    margin-top: 0.5rem;
+    color: var(--color-gray-500);
+}
+.recent-tasks{
+    background-color: white; 
+}
+.tasks-and-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.tasks, .quick-actions{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 47.5%;
+    border: solid 1px var(--border);
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    border-radius: 4px;
+}
+.tasks .title, .quick-actions .title{
+    display: flex;
+    gap: 1rem;
+}
+.tasks .title p, .quick-actions .title p{
+    margin-top: 4px;
+    color: var(--font-gray);
+}
+
+.recent-tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem;
+}
+.recent-tasks p{
+    color: var(--color-gray-500);
+    font-size: var(--font-small);
+    margin-top: 0.5rem;
+}
+.quick-action-menu{
+    display: flex;
+    gap: 1rem;
+    border: solid 1px var(--border);
+    background-color: #faf9fa;
+    width: 90%;
+    padding: 1rem;
+    align-items: center;
+}
+.lightblue{
+    background-color: #dbeafe;
+}
+.lightcyan{
+    background-color: #cefafe;
+}
+.lightblue{
+    background-color: #dcfcef;
+}

@@ -34,12 +34,3 @@ header{
     border-radius: 100%;
     box-shadow: var(--box-shadow);
 }
-h4{
-    color: var(--color-gray-900);
-    font-weight: bold;
-    font-size: 1.875rem;
-}
-p{
-    margin-top: 0.5rem;
-    color: var(--color-gray-600);
-}

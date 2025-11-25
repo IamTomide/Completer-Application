@@ -9,7 +9,7 @@
     border-radius: 12px;
 }
 .help-button p{
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
 }
 .help-button{
     box-shadow: 0 10px 15px -3px #0000001a;

@@ -1,9 +1,4 @@
 const moduleElements = document.querySelectorAll("[data-import]");
-// const login = document.getElementById("login");
-
-// const signin = document.getElementById("signin");
-// const  signupForm = document.getElementById("signupPage");
-// const loginForm= document.getElementById("loginPage");
 
 
 const fetchData =(elementlist) => {
@@ -46,21 +41,4 @@ function loadComponentScripts(element){
     }
 }
 
-
-// const showLogin = () => {
-//   login.classList.add("active");
-//   signin.classList.remove("active");
-//   loginForm.classList.remove("hide");
-//   signupForm.classList.add("hide");
-// }
-
-// const showSignin = () => {
-//   signin.classList.add("active");
-//   login.classList.remove("active");
-//   signupForm.classList.remove("hide");
-//   loginForm.classList.add("hide");
-// }
-
-// login.addEventListener("click", showLogin);
-// signin.addEventListener("click", showSignin);
 

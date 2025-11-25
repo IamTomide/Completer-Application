@@ -14,7 +14,12 @@
     --color-gray-900: #101828;
     --color-gray-900: #101828;
     --font-gray: ##1E293B;
+    --border: #e2e8f0;
+    --outline: #3b82f6;
     --default-font-family: "Open Sans", sans-serif;
+    --font-xl: 20px;
+    --font-2xl: 24px;
+    --font-3x1: 30px;
 }
 body{
     font-family: var(--default-font-family);
@@ -50,6 +55,16 @@ body{
     z-index: 10;
     border-radius: 14px;
     box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.1);
+}
+
+h4{
+    color: var(--color-gray-900);
+    font-weight: bold;
+    font-size: 1.875rem;
+}
+header p{
+    margin-top: 0.5rem;
+    color: var(--color-gray-600);
 }
 footer{
     position: absolute;
