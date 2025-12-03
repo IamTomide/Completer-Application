@@ -8,11 +8,7 @@
 .hide{
     display: none;
 }
-.active{
-    border-radius: 0.25rem;
-    background-color: #ffffff;
-    box-shadow:  var(--box-shaow);
-}
+
 .button-help2 button{
     background-image: linear-gradient(#fdc700, #f0b100) ;
     border: none;

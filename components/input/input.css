@@ -4,7 +4,7 @@ label{
     font-weight: 700;
 }
 input{
-    margin: 0.25rem 0 1.25rem;
+    margin: 0.5rem 0 1.25rem;
     padding-top: 0.907rem;
     padding-bottom: 0.907rem;
     padding-left: 1.8755rem;
@@ -22,6 +22,6 @@ input:focus{
 }
 .input-div img{
     position: absolute;
-    top: 16px;
+    top: 20px;
     left: 4px;
 }

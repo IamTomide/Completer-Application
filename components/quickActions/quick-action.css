@@ -1,5 +1,18 @@
 .quick-action-menu img{
-    background-color: green;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+.light-blue, .light-cyan, .light-green{
+    padding: 0.75rem;
+}
+.light-blue{
+    background-color: #dbeafe;
+}
+.light-cyan{
+    background-color: #cefafe;
+}
+.light-green{
+    background-color: #dcfce7;
 }
 .action-desc{
     margin-top: 0.5rem;
@@ -8,7 +21,7 @@
     margin: 0.5rem 0;
     color: var(--color-gray-500);
     font-size: var(--font-xsmall);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .action-desc h6{
     font-size: var(--font-small);

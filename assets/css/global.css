@@ -49,7 +49,7 @@ body{
     align-items: center;
     gap: 1.5rem;
     width: 90%;
-    max-width: 448px;
+    max-width: 500px;
     background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(8px);
     z-index: 10;
@@ -63,7 +63,7 @@ h4{
     font-size: 1.875rem;
 }
 header p{
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     color: var(--color-gray-600);
 }
 footer{
@@ -96,11 +96,11 @@ button{
     padding: 0;
     color: #1e293b;
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 0.75rem;
 }
 
 .active{
-    border-radius: 0.25rem;
+    border-radius: 1rem;
     background-color: #ffffff;
     box-shadow:  var(--box-shaow);
 }
@@ -110,10 +110,14 @@ form{
 }
 
 .agree-stmt{
+    margin-top: 1.5rem;
     text-align: center;
     font-size: var(--font-xsmall);
     line-height: 16px;
     font-family: var(--default-font-family);
+}
+.agree-stmt a{
+    color: #3b82f6;
 }
 .hide{
     display: none;

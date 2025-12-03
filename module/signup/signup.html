@@ -12,13 +12,14 @@ data-subhead="Create an account to boost your creativity"
     <button id="signin" class="active">Sign Up</button>
 </div>
 
-<form action="" id="loginPage">
+<form action="/dashboard.html" id="loginPage">
     <div
     data-signup="/components/input/input.html"
     data-label="Full Name"
     data-type="text"
     data-placeholder="John Doe"
     data-icon="/components/images/person.svg" 
+    data-idname="username"
     ></div>
     <div class="email"
     data-signup="/components/input/input.html"
@@ -26,18 +27,20 @@ data-subhead="Create an account to boost your creativity"
     data-type="email"
     data-placeholder="hello@example.com"
     data-icon="/components/images/email.svg" 
+    data-idname="newemail"
     ></div>
     <div class="email" 
     data-signup="/components/input/input.html"
     data-label="Password"
     data-type="password"
     data-placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
-    data-icon="/components/images/lock.svg" 
+    data-icon="/components/images/lock.svg"
+    data-idname="newpassword"
     ></div>
     <p class="pword">Password must be atleast 8 characters</p>
 
     <div class="actn-buttons">
-        <div class="button-help" data-login="/components/button/button.html" data-btnaction="help" data-icon="/components/images/help.svg"></div>
+        <div class="button-help" data-login="/components/button/button.html" data-btnaction="Help" data-icon="/components/images/help.svg"></div>
         <div class="button-help2" data-login="/components/button/button.html" data-btnaction="Create Account"></div>
     </div>
 </form>

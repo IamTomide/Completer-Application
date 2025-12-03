@@ -8,12 +8,6 @@
 .hide{
     display: none;
 }
-.active{
-    /* display: block; */
-    border-radius: 0.25rem;
-    background-color: #ffffff;
-    box-shadow:  var(--box-shaow);
-}
 .pword{
     font-size: var(--font-small);
     margin-top: 0;

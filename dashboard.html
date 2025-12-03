@@ -9,72 +9,99 @@
     <title>Completer App</title>
 </head>
 <body>
-    <section class="dashboard">
-        <div class="dashboard-head">
-            <h4>Good evening, Oluwatomide</h4>
-            <p>Here's what's happening with your productivity today</p>
-        </div>
+    <div class="dashboard-container">
+        <aside data-dashboard="/module/sidebar/sidebar.html"></aside>
         
-
-        <div class="action-options">
-            <div class="action-div"
-            data-dashboard="/components/actions/action.html" data-icon="/components/images/checkbox.svg"
-            data-action="Active tasks"
-            data-color="blue"
-            data-currentvalue="0"
-            data-valuenote="0 completed"
-            ></div>
-            <div class="action-div" 
-            data-dashboard="/components/actions/action.html"
-            data-icon="/components/images/dollar.svg"
-            data-action="Total Expenses"
-            data-color="cyan"
-            data-currentvalue="$0.00"
-            data-valuenote="This period"
-            ></div>
-            <div class="action-div" 
-            data-dashboard="/components/actions/action.html"
-            data-icon="/components/images/note.svg"
-            data-action="Total Notes"
-            data-color="green"
-            data-currentvalue="0"
-            data-valuenote="Saved notes"
-            ></div>
-            <div class="action-div" 
-            data-dashboard="/components/actions/action.html"
-             data-icon="/components/images/trend.svg"
-            data-action="Total Expenses"
-            data-color="indigo"
-            data-currentvalue="0%"
-            data-valuenote="Task completion"
-            ></div>            
-        </div>
-
-        <section class="tasks-and-actions">
-            <div class="tasks">
-                <div class="title">
-                    <img src="/assets/images/clock.svg" alt="">
-                    <p>Recent Tasks</p>
-                </div>
-                <div class="recent-tasks">
-                    <img src="/assets/images/task.svg" alt="checkbox">
-                    <p>No tasks yet</p>
-                </div> 
+        <section class="dashboard">
+            <div class="dashboard-head">
+                <h4>Good evening, Oluwatomide!</h4>
+                <p>Here's what's happening with your productivity today</p>
             </div>
-            <div class="quick-actions">
-                <div class="title">
-                    <img src="/assets/images/trendup.svg" alt="">
-                    <p>Quick Actions</p>
-                </div>
-                <div class="quick-menu-container">
-                    <div class="quick-action-menu" 
-                    data-dashboard="/components/quickActions/quick-action.html">   
+            
+
+            <div class="action-options">
+                <div class="action-div"
+                data-dashboard="/components/actions/action.html" 
+                data-icon="/components/images/checkbox.svg"
+                data-action="Active tasks"
+                data-color="blue"
+                data-currentvalue="0"
+                data-valuenote="0 completed"
+                ></div>
+                <div class="action-div" 
+                data-dashboard="/components/actions/action.html"
+                data-icon="/components/images/dollar.svg"
+                data-action="Total Expenses"
+                data-color="cyan"
+                data-currentvalue="$0.00"
+                data-valuenote="This period"
+                ></div>
+                <div class="action-div" 
+                data-dashboard="/components/actions/action.html"
+                data-icon="/components/images/note.svg"
+                data-action="Total Notes"
+                data-color="green"
+                data-currentvalue="0"
+                data-valuenote="Saved notes"
+                ></div>
+                <div class="action-div" 
+                data-dashboard="/components/actions/action.html"
+                data-icon="/components/images/trend.svg"
+                data-action="Total Expenses"
+                data-color="indigo"
+                data-currentvalue="0%"
+                data-valuenote="Task completion"
+                ></div>            
+            </div>
+
+            <section class="tasks-and-actions">
+                <div class="tasks">
+                    <div class="title">
+                        <img src="/assets/images/clock.svg" alt="">
+                        <p>Recent Tasks</p>
                     </div>
-                    
-                </div> 
-            </div>
+                    <div class="recent-tasks">
+                        <img src="/assets/images/task.svg" alt="checkbox">
+                        <p>No tasks yet</p>
+                    </div> 
+                </div>
+                <div class="quick-actions">
+                    <div class="title">
+                        <img src="/assets/images/trendup.svg" alt="">
+                        <p>Quick Actions</p>
+                    </div>
+                    <div class="quick-menu-container">
+                        <div class="quick-action-menu" 
+                        data-dashboard="/components/quickActions/quick-action.html"
+                        data-icon="/components/images/bluecheck.svg"
+                        data-menu="Create new task"
+                        data-menusubhead="Add a task to your list"
+                        data-color="light-blue"
+                        >   
+                        </div>
+                        <div class="quick-action-menu" 
+                        data-dashboard="/components/quickActions/quick-action.html"
+                        data-icon="/components/images/cyandollar.svg"
+                        data-menu="Track Expense"
+                        data-menusubhead="Record a new expense"
+                        data-color="light-cyan"
+                        >   
+                        </div>
+                        <div class="quick-action-menu" 
+                        data-dashboard="/components/quickActions/quick-action.html"
+                        data-icon="/components/images/greennote.svg"
+                        data-menu="Write Note"
+                        data-menusubhead="Capture your thoughts"
+                        data-color="light-green"
+                        >   
+                        </div>
+                        
+                    </div> 
+                </div>
+            </section>
         </section>
-    </section>
+    </div>
+    
     
 
 </body>

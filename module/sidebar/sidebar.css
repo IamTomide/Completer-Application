@@ -1,0 +1,71 @@
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-title h3 {
+    margin: 10px;
+    flex: 1;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.sidebar-title svg{
+    padding: 0.75rem;
+    border-radius: 8px;
+    background-image: linear-gradient(#155dfc, #4f39f6);
+}
+.sidebar-title button{
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+.bottom-gray{
+    border-bottom: solid 1px var(--border);
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.user-info span{
+    padding: 0.875rem 1rem;
+    color: #fff;
+    background-image: linear-gradient(#155dfc, #4f39f6);
+    border-radius: 50%;
+    font-weight: bold;
+}
+.user-p {
+    margin: 0;
+}
+.username{
+    margin-left: 0.5rem;
+}
+.username p{
+    font-size: var(--font-xsmall);
+    margin-top: 0.5rem;
+    color: var(--color-gray-500);
+}
+.sidebar-menu button{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.sidebar-menu button:hover{
+    background-color: rgb(233, 195, 245);
+}
+.sidebar-menu div{
+    padding: 0;
+}
+.sidebar-menu button{
+    display: flex;
+}
+.sidebar-menu svg{
+    display: inline-flex;
+}
+.menu-icon {
+    margin-right: 0.875rem;
+}

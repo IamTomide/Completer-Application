@@ -6,6 +6,8 @@
     padding: 0.5rem 1rem;
     width: 100%;
     border: solid 2px var(--color-gray-200);
+    font: var(--font-size);
+    font-weight: 600;
     border-radius: 12px;
 }
 .help-button p{
@@ -18,4 +20,7 @@
 .yellow-btn{
     background-image: linear-gradient(#fdc700, #f0b100) ;
     border: none;
+}
+a{
+    text-decoration: none;
 }
