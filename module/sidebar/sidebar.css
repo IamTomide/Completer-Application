@@ -46,11 +46,14 @@
     margin-top: 0.5rem;
     color: var(--color-gray-500);
 }
-.sidebar-menu button{
-    display: inline-flex;
+.sidebar-menu a{
+    display: flex;
     align-items: center;
     margin: 0;
-    padding: 1rem;
+    padding: 0.25rem 0;
+    width: 100%;
+}
+.sidebar-menu button{
     width: 100%;
     border-radius: 1rem;
 }
@@ -68,4 +71,8 @@
 }
 .menu-icon {
     margin-right: 0.875rem;
+}
+.sidebar-menu a{
+    text-decoration: none;
+    color: #1e293b;
 }
