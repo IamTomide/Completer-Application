@@ -50,15 +50,17 @@
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 0.25rem 0;
+    padding: 0;
     width: 100%;
 }
 .sidebar-menu button{
     width: 100%;
     border-radius: 1rem;
+    font-weight: bold;
+    color: var(--color-gray-600);
 }
 .sidebar-menu button:hover{
-    background-color: rgb(233, 195, 245);
+    background-color: rgb(240, 233, 242);
 }
 .sidebar-menu div{
     padding: 0;
@@ -76,3 +78,4 @@
     text-decoration: none;
     color: #1e293b;
 }
+

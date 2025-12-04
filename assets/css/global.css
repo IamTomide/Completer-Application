@@ -100,7 +100,7 @@ button{
 }
 
 .active{
-    border-radius: 1rem;
+    border-radius: 10px;
     background-color: #ffffff;
     box-shadow:  var(--box-shaow);
 }
@@ -120,7 +120,7 @@ form{
     color: #3b82f6;
 }
 .hide{
-    display: none;
+    display: initial;
 }
 .buttons{
     margin-bottom: 1.25rem;

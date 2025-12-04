@@ -1,5 +1,5 @@
-.dashboard{
-    width: 80%;
+.dashboard, .tasks-page{
+    width: 85%;
     padding: 3rem 2rem;
     background-color: #F9FAFB;
 }
@@ -39,7 +39,6 @@
 .tasks-and-actions{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 1rem;
 }
 .tasks, .quick-actions{
@@ -47,7 +46,6 @@
     flex-direction: column;
     gap: 2rem;
     width: 47%;
-    min-width: 300px;
     border: solid 1px var(--border);
     padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 4px;
@@ -101,10 +99,136 @@
 aside{
     width: 35%;
     min-width: 280px;
-    max-width: 300px;
+    max-width: 280px;
     height: 100vh;
     border-right: solid 1px var(--border);
 }
 aside div{
     padding: 1rem;
+}
+.hide{
+    display: none;
+}
+.task-box{
+    border: solid 1px var(--border);
+    padding: 1.5rem;
+}
+.task-box-title{
+    display: flex;
+    align-items: center;
+}
+.task-box-title svg{
+    padding: 0.75rem;
+    margin-right: 1rem;
+    background-color: #155dfc;
+    border-radius: 10px;
+}
+.task-title-info h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: black;
+}
+.task-title-info p{
+    color: var(--color-gray-500);
+    margin-top: 10px;
+    font-size: var(--font-small);
+}
+.add-tasks{
+    border: solid 1px var(--border);
+    padding: 1.5rem;
+}
+.task-box .buttons{
+    width: 28%;
+}
+.task-box .buttons button{
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    width: 49%;
+}
+.task-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: #fff;
+    border-top: none;
+    padding-top: 3rem;
+}
+.purple-circle{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: solid 5px #a3b3ff;
+}
+.task-store, .ai-store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 1rem 2rem;
+    gap: 20px;
+    width: 96.5%;
+    border: dashed 2px #c6d2ff;
+    background-color: #eff2ffd3;
+    border-radius: 10px;
+    color: var(--color-gray-500);
+}
+.ai-store{
+    background-color: var(--color-gray-100);
+    border: solid 1px var(--border);
+}
+.ai-store p:first-of-type{
+    font-size: 1.25rem;
+}
+.add-task-button, .generate-now{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: #155dfc;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 1rem;
+}
+.generate-now{
+    width: 15%;
+    padding: 12px;
+    background-color: #155efc74;
+}
+.count-tasks, .ai-title-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.count-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.count-div h6{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.short-line{
+    height: 32px;
+    width: 1px;
+    margin: 0.875rem;
+    background-color: var(--color-gray-200);
+}
+.green-text{
+    color: #00a63e;
+}
+@media (max-width: 1200px) {
+    .tasks-and-actions{
+        flex-direction: column;
+        width: 95%;
+    }
+    .tasks, .quick-actions{
+        width: 100%;
+    }
 }

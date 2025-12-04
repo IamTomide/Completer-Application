@@ -15,8 +15,25 @@ dashboardComponents.forEach(async (element) => {
     }
 
     element.innerHTML = html;
+    loadComponentScripts(element)
 
   } catch (err) {
     element.innerHTML = `<h4>Component not found</h4>`;
   }
 });
+
+function loadComponentScripts(element){
+    const scripts = element.querySelectorAll("script");
+    for (let script of scripts) {
+        const newScript = document.createElement('script');
+        if(script.src){
+            newScript.src = script.src;
+        }
+        if(script.textContent){
+            newScript.textContent = script.textContent;
+        }
+        script.remove()
+        
+        document.body.appendChild(newScript)
+    }
+}

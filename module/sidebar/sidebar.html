@@ -1,13 +1,13 @@
 <link rel="stylesheet" href="/module/sidebar/sidebar.css">
 <div class="sidebar-title bottom-gray">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m9 11l3 3l8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></g></svg>
-    <h3>TaskMaster</h3>
-    <button><img src="/assets/images/closeicon.svg" alt=""></button>
+    <h3 class="menulabel">TaskMaster</h3>
+    <button id="closeicon"><img src="/assets/images/closeicon.svg" alt=""></button>
 </div>
 <div class="user bottom-gray">
     <div class="user-info">
         <span>P</span>
-        <div class="username">
+        <div class="menulabel username">
             <h6>Paulina</h6>
             <p>paulinaebunoluwa@gmail.com</p>
         </div>
@@ -19,7 +19,7 @@
         <button>
             <a href="">
                 <img src="/assets/images/dashboard.svg" alt="" class="menu-icon">
-                <p>Dashboard</p> 
+                <p class="menulabel">Dashboard</p> 
             </a>
         </button>    
     </div>
@@ -27,7 +27,7 @@
         <a href="">
             <button>
                 <img src="/assets/images/checktask.svg" alt="" class="menu-icon">
-                <p>Tasks</p> 
+                <p class="menulabel">Tasks</p> 
             </button> 
         </a>
         
@@ -36,26 +36,27 @@
         <a href="">
             <button>
                 <img src="/assets/images/community.svg" alt="" class="menu-icon">
-                <p>Community</p> 
+                <p class="menulabel">Community</p> 
             </button> 
         </a>      
     </div>
     <div>
          <button>
             <img src="/assets/images/expenses.svg" alt="" class="menu-icon">
-            <p>Expenses</p> 
+            <p class="menulabel">Expenses</p> 
         </button> 
     </div>
     <div>
          <button>
             <img src="/assets/images/notes.svg" alt="" class="menu-icon">
-            <p>Notes</p> 
+            <p class="menulabel">Notes</p> 
         </button> 
     </div>
     <div>
          <button>
             <img src="/assets/images/settings.svg" alt="" class="menu-icon">
-            <p>Settings</p> 
+            <p class="menulabel">Settings</p> 
         </button> 
     </div>
 </div>
+<script src="/module/sidebar/sidebar.js"></script>
