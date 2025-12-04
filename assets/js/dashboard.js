@@ -37,3 +37,22 @@ function loadComponentScripts(element){
         document.body.appendChild(newScript)
     }
 }
+
+const mytasksButton = document.querySelector("#myTasks");
+const aiSummaryButton = document.querySelector("#aiSummary");
+const aiSummary = document.querySelector(".aiSummary");
+const taskSummary = document.querySelector(".taskSummary");
+
+
+console.log(mytasksButton);
+mytasksButton.addEventListener("click", () => {
+    aiSummary.classList.add('hide');
+    taskSummary.classList.remove('hide');
+})
+aiSummaryButton.addEventListener("click", () => {
+    aiSummary.classList.remove('hide');
+    taskSummary.classList.add('hide');
+})
+
+console.log(taskPageButton);
+console.log(dashboardPageButton);
